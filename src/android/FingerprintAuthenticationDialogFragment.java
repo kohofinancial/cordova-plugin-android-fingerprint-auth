@@ -79,7 +79,6 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
                              Bundle savedInstanceState) {
         Bundle args = getArguments();
         Log.d(TAG, "disableBackup: " + FingerprintAuth.mDisableBackup);
-        Log.d(TAG, "setRetainInstance == false");
         // Inflate layout
 
         View v = inflater.inflate(R.layout.fingerprint_dialog_container, container, false);
@@ -254,11 +253,6 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
     public void onCancel(DialogInterface dialog) {
         super.onCancel(dialog);
         FingerprintAuth.onCancelled();
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
     }
 
     /**
