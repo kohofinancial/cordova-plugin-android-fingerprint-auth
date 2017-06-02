@@ -1,3 +1,6 @@
+#Version 1.2.8
+* **Bug fix** for issue #52 - Revert to 1.2.6 and dismiss opened dialog on pause event to avoid doubling it on resume if app was closed by OS
+
 #Version 1.2.7
 * **Bug fix** for issue #52 - Code update/refactor. Dismiss opened dialog on pause event to avoid doubling it on resume if app was closed by OS
 
