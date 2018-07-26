@@ -1,3 +1,6 @@
+#Version 2.0.0
+* Update for compatibility with Cordova Android version 7
+
 #Version 1.2.8
 * **Bug fix** for issue #52 - Revert to 1.2.6 and dismiss opened dialog on pause event to avoid doubling it on resume if app was closed by OS
 
